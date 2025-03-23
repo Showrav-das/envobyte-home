@@ -52,7 +52,7 @@ export default function Portfolio() {
       id: 6,
       title: "Chat Solution",
       category: "UI/UX",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/portfolio1.png",
     },
     {
       id: 7,
@@ -64,7 +64,7 @@ export default function Portfolio() {
       id: 8,
       title: "Trading Platform",
       category: "UI/UX",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/portfolio1.png",
     },
     {
       id: 9,
