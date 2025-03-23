@@ -255,40 +255,6 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              {/* Company Links */}
-              <div
-                className="space-y-4 animate-fade-up"
-                style={{ animationDelay: "100ms" }}
-              >
-                <h3 className="text-md font-medium tracking-wide">Company</h3>
-                <ul className="space-y-2">
-                  <li>
-                    <Link
-                      href="/about"
-                      className="text-sm text-white hover:text-white transition-all-300"
-                    >
-                      About Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/privacy"
-                      className="text-sm text-white hover:text-white transition-all-300"
-                    >
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/pricing"
-                      className="text-sm text-white hover:text-white transition-all-300"
-                    >
-                      Pricing/Pricing
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
               {/* Learn More */}
               <div
                 className="space-y-4 animate-fade-up"
@@ -303,7 +269,7 @@ export default function Footer() {
                       href="/contact"
                       className="text-sm text-white hover:text-white transition-all-300"
                     >
-                      Contact Us
+                      Combo Offer
                     </Link>
                   </li>
                   <li>
@@ -311,7 +277,7 @@ export default function Footer() {
                       href="/services"
                       className="text-sm text-white hover:text-white transition-all-300"
                     >
-                      Service Advantage
+                      Service Industries
                     </Link>
                   </li>
                   <li>
@@ -319,12 +285,37 @@ export default function Footer() {
                       href="/faq"
                       className="text-sm text-white hover:text-white transition-all-300"
                     >
-                      FAQ
+                      Envobyte Apps
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              {/* Company Links */}
+              <div
+                className="space-y-4 animate-fade-up"
+                style={{ animationDelay: "100ms" }}
+              >
+                <h3 className="text-md font-medium tracking-wide">Support</h3>
+                <ul className="space-y-2">
+                  <li>
+                    <Link
+                      href="/about"
+                      className="text-sm text-white hover:text-white transition-all-300"
+                    >
+                      Contact Us
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/terms"
+                      href="/privacy"
+                      className="text-sm text-white hover:text-white transition-all-300"
+                    >
+                      Faqs
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/pricing"
                       className="text-sm text-white hover:text-white transition-all-300"
                     >
                       Terms & Conditions

@@ -39,7 +39,7 @@ export default function TeamMember() {
           <h3 className="text-blue-500 font-medium tracking-wider mb-2">
             EXPERIENCED TEAM
           </h3>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy-900">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#001246]">
             Our Team Members
           </h2>
         </div>
